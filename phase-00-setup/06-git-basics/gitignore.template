@@ -1,0 +1,16 @@
+# Secrets: never commit real keys
+.env
+
+# Virtual environment: rebuilt from requirements.txt
+.venv/
+
+# Python cache files: generated automatically
+__pycache__/
+*.pyc
+
+# macOS Finder metadata
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
