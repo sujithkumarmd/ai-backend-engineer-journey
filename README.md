@@ -5,7 +5,7 @@
 **From zero to shipping production AI features: LLM APIs, RAG, evaluation, tool calling, backend services, deployment and agents.**
 
 ![Status](https://img.shields.io/badge/status-in%20progress-blue?style=for-the-badge)
-![Current](https://img.shields.io/badge/current-Phase%200%20·%20Setup-orange?style=for-the-badge)
+![Current](https://img.shields.io/badge/current-Phase%201%20·%20LLM%20Foundations-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Phases](https://img.shields.io/badge/phases-13-8A2BE2?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/projects-4-2EA043?style=for-the-badge)
@@ -94,8 +94,8 @@ flowchart LR
 
 | # | Phase | ⏱️ Duration | 📅 Start | 🏁 End | Status | 📁 Folder |
 |:-:|---|:-:|:-:|:-:|:-:|---|
-| 0 | Setup | 2 days | Fri 25 Sep 2026 | Sat 26 Sep 2026 | 🟡 | [`phase-00-setup`](phase-00-setup/) |
-| 1 | LLM Foundations | 1 week | Sun 27 Sep 2026 | Sat 03 Oct 2026 | ⬜ | `phase-01-llm-foundations` |
+| 0 | Setup | 2 days | Fri 25 Sep 2026 | Sat 26 Sep 2026 | ✅ | [`phase-00-setup`](phase-00-setup/) |
+| 1 | LLM Foundations | 1 week | Sun 27 Sep 2026 | Sat 03 Oct 2026 | 🟡 | [`phase-01-llm-foundations`](phase-01-llm-foundations/) |
 | 2 | Embeddings & Semantic Search | 1 week | Sun 04 Oct 2026 | Sat 10 Oct 2026 | ⬜ | `phase-02-embeddings` |
 | 3 | RAG Foundations | 2 weeks | Sun 11 Oct 2026 | Sat 24 Oct 2026 | ⬜ | `phase-03-rag-foundations` |
 | 4 | Vector Search | 1 week | Sun 25 Oct 2026 | Sat 31 Oct 2026 | ⬜ | `phase-04-vector-search` |
@@ -121,8 +121,8 @@ gantt
     axisFormat %d %b
 
     section 🧱 Foundations
-    Phase 0 Setup                 :active, p0, 2026-09-25, 2d
-    Phase 1 LLM Foundations       :p1, after p0, 7d
+    Phase 0 Setup                 :done, p0, 2026-09-25, 2d
+    Phase 1 LLM Foundations       :active, p1, after p0, 7d
     Phase 2 Embeddings            :p2, after p1, 7d
 
     section 🔎 Retrieval (RAG)
@@ -154,7 +154,7 @@ gantt
 
 > Click a phase to expand it. Ticked boxes = concepts completed.
 
-<details open>
+<details>
 <summary><h3>🧱 Phase 0 — Setup <code>1–2 days</code></h3></summary>
 
 Get a clean, safe Python workspace that can talk to an LLM.
@@ -165,15 +165,15 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [x] 04 · `.env` + `python-dotenv`
 - [x] 05 · API spending limits
 - [x] 06 · Git basics
-- [ ] 07 · 🏁 Milestone: "Hello" to an LLM
+- [x] 07 · 🏁 Milestone: "Hello" to an LLM
 
 **✅ Done when:** a script sends `"Hello"` to an LLM and prints the reply.
 </details>
 
-<details>
+<details open>
 <summary><h3>🧠 Phase 1 — LLM Foundations <code>1 week</code></h3></summary>
 
-- [ ] What an LLM is (next-token prediction, no memory, no internet by default)
+- [x] What an LLM is (next-token prediction, no memory, no internet by default)
 - [ ] Tokens and `tiktoken`
 - [ ] Context window
 - [ ] API call anatomy (client, model, messages, response)

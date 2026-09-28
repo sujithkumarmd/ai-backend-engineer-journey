@@ -3,7 +3,7 @@
 # 🧱 Phase 0 — Setup
 
 ![Dates](https://img.shields.io/badge/dates-25%20Sep%20→%2026%20Sep%202026-lightgrey?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 
 **Build a clean, safe Python workspace that can talk to an LLM.**
 
@@ -16,6 +16,8 @@
 ## 🏁 Goal
 
 > **Done when:** a script sends `"Hello"` to an LLM and prints the reply.
+>
+> ✅ **Achieved Mon 28 Sep 2026:** `gpt-6-luna` → *"Hi! How can I help you today?"*
 
 ## 🧩 Concepts
 
@@ -27,7 +29,7 @@
 | 04 | [`.env` + `python-dotenv`](04-env-and-dotenv/) | Keep secrets out of your code | ✅ |
 | 05 | [API spending limits](05-api-spending-limits/) | Make sure a bug can't cost you real money | ✅ |
 | 06 | [Git basics](06-git-basics/) | Track changes and never commit secrets | ✅ |
-| 07 | [🏁 Hello LLM](07-hello-llm/) | Your first API call | 🟡 |
+| 07 | [🏁 Hello LLM](07-hello-llm/) | Your first API call | ✅ |
 
 **Legend:** ✅ Done · 🟡 In progress · ⬜ Not started
 

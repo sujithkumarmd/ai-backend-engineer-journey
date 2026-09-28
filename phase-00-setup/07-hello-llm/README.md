@@ -4,7 +4,7 @@
 
 ![Phase](https://img.shields.io/badge/Phase%200-Setup-orange?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-07%20of%2007-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 ![SDK](https://img.shields.io/badge/openai-3.19.2-412991?style=flat-square&logo=openai&logoColor=white)
 ![Model](https://img.shields.io/badge/model-gpt--6--luna-412991?style=flat-square)
 
@@ -18,10 +18,10 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Explain what an SDK is and why we use one instead of raw HTTP
-- [ ] Install the OpenAI SDK and record it
-- [ ] Send a prompt to a model and print the reply
-- [ ] Recognize the common first-call errors and fix them
+- [x] Explain what an SDK is and why we use one instead of raw HTTP
+- [x] Install the OpenAI SDK and record it
+- [x] Send a prompt to a model and print the reply
+- [x] Recognize the common first-call errors and fix them
 
 ---
 
@@ -263,7 +263,7 @@ The SDK raises named **exceptions** (Python's way of signaling an error) that ma
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after the script prints a reply and the milestone is committed.
+**Status:** ✅ DONE · completed Mon 28 Sep 2026 · `gpt-6-luna` replied *"Hi! How can I help you today?"* · commits `1e385a9`, `65bd7d9`
 
 [⬅️ 06 · Git basics](../06-git-basics/) · [📂 Phase 0 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
