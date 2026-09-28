@@ -26,8 +26,8 @@
 | 03 | [API key](03-api-key/) | What an API key is and how to get one | ✅ |
 | 04 | [`.env` + `python-dotenv`](04-env-and-dotenv/) | Keep secrets out of your code | ✅ |
 | 05 | [API spending limits](05-api-spending-limits/) | Make sure a bug can't cost you real money | ✅ |
-| 06 | [Git basics](06-git-basics/) | Track changes and never commit secrets | 🟡 |
-| 07 | 🏁 Hello LLM | Your first API call | ⬜ |
+| 06 | [Git basics](06-git-basics/) | Track changes and never commit secrets | ✅ |
+| 07 | [🏁 Hello LLM](07-hello-llm/) | Your first API call | 🟡 |
 
 **Legend:** ✅ Done · 🟡 In progress · ⬜ Not started
 

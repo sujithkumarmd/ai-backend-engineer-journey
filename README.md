@@ -164,7 +164,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [x] 03 · API key
 - [x] 04 · `.env` + `python-dotenv`
 - [x] 05 · API spending limits
-- [ ] 06 · Git basics
+- [x] 06 · Git basics
 - [ ] 07 · 🏁 Milestone: "Hello" to an LLM
 
 **✅ Done when:** a script sends `"Hello"` to an LLM and prints the reply.

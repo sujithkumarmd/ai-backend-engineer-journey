@@ -4,12 +4,12 @@
 
 ![Phase](https://img.shields.io/badge/Phase%200-Setup-orange?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-06%20of%2007-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 ![Git](https://img.shields.io/badge/git-2.50-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Save snapshots of your project, see exactly what changed, undo mistakes, and make sure secrets never get saved.**
 
-[⬅️ 05 · API spending limits](../05-api-spending-limits/) · [📂 Phase 0 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `07 · Hello LLM`
+[⬅️ 05 · API spending limits](../05-api-spending-limits/) · [📂 Phase 0 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [07 · 🏁 Hello LLM](../07-hello-llm/)
 
 </div>
 
@@ -17,11 +17,11 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Explain repository, working tree, staging area and commit
-- [ ] Create a repo, stage files and commit them
-- [ ] Use `.gitignore` to keep `.env` and `.venv` out forever
-- [ ] Inspect history and changes (`log`, `diff`) and undo uncommitted edits
-- [ ] Know what to do if a secret *was* committed
+- [x] Explain repository, working tree, staging area and commit
+- [x] Create a repo, stage files and commit them
+- [x] Use `.gitignore` to keep `.env` and `.venv` out forever
+- [x] Inspect history and changes (`log`, `diff`) and undo uncommitted edits
+- [x] Know what to do if a secret *was* committed
 
 ---
 
@@ -326,7 +326,7 @@ Assume any key that was ever committed, even for a minute, **is leaked**.
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after your first commit (Step 7) and the diff/restore practice (Step 9).
+**Status:** ✅ DONE · completed Mon 28 Sep 2026 · first commit `5ff19b6` (17 files, no `.env`, no `.venv/`)
 
 [⬅️ 05 · API spending limits](../05-api-spending-limits/) · [📂 Phase 0 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
