@@ -174,8 +174,8 @@ Get a clean, safe Python workspace that can talk to an LLM.
 <summary><h3>🧠 Phase 1 — LLM Foundations <code>1 week</code></h3></summary>
 
 - [x] What an LLM is (next-token prediction, no memory, no internet by default)
-- [ ] Tokens and `tiktoken`
-- [ ] Context window
+- [x] Tokens and `tiktoken`
+- [x] Context window
 - [ ] API call anatomy (client, model, messages, response)
 - [ ] Message roles (system / user / assistant)
 - [ ] Statelessness & resending chat history

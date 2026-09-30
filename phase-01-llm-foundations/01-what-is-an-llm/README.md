@@ -8,7 +8,7 @@
 
 **An LLM is a next-token predictor: it writes by repeatedly guessing the next small piece of text. It has no memory between calls and no internet unless you give it one.**
 
-[📂 Phase 1 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `02 · Tokens and tiktoken`
+[📂 Phase 1 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [02 · Tokens and tiktoken](../02-tokens-and-tiktoken/)
 
 </div>
 

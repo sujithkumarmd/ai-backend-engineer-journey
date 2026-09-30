@@ -22,9 +22,9 @@
 | # | Concept | What you learn | Status |
 |:-:|---|---|:-:|
 | 01 | [What an LLM is](01-what-is-an-llm/) | Next-token prediction, no memory, no internet by default | ✅ |
-| 02 | Tokens and `tiktoken` | How text becomes tokens, and how to count them | ⬜ |
-| 03 | Context window | The maximum text a model can see at once | ⬜ |
-| 04 | API call anatomy | Client, model, input/messages, response | ⬜ |
+| 02 | [Tokens and `tiktoken`](02-tokens-and-tiktoken/) | How text becomes tokens, and how to count them | ✅ |
+| 03 | [Context window](03-context-window/) | The maximum text a model can see at once | ✅ |
+| 04 | [API call anatomy](04-api-call-anatomy/) | Client, model, input/messages, response | 🟡 |
 | 05 | Message roles | system / user / assistant | ⬜ |
 | 06 | Statelessness & chat history | Giving a memoryless model "memory" | ⬜ |
 | 07 | Temperature | Controlling randomness | ⬜ |
