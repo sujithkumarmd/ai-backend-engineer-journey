@@ -10,7 +10,7 @@ client = OpenAI(timeout=60, max_retries=3)
 response = client.responses.create(
     model=MODEL,
     input=[
-            {'role': "user", "content": "Name a planet."}
+            {"role": "user", "content": "Name a planet."}
         ]
     )
 

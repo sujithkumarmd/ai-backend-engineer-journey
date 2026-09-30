@@ -176,7 +176,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [x] What an LLM is (next-token prediction, no memory, no internet by default)
 - [x] Tokens and `tiktoken`
 - [x] Context window
-- [ ] API call anatomy (client, model, messages, response)
+- [x] API call anatomy (client, model, messages, response)
 - [ ] Message roles (system / user / assistant)
 - [ ] Statelessness & resending chat history
 - [ ] Temperature

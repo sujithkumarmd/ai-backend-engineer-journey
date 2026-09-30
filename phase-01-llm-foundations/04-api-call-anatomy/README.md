@@ -4,7 +4,7 @@
 
 ![Phase](https://img.shields.io/badge/Phase%201-LLM%20Foundations-blueviolet?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-04%20of%2012-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 
 **Every LLM call has four parts: a client that connects, a model that answers, the input you send, and a response object you unpack.**
 
@@ -16,11 +16,11 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Name the four parts of an LLM API call and what each does
-- [ ] Make the same call with raw HTTP **and** with the SDK
-- [ ] Read the raw JSON response and find the reply text by hand
-- [ ] Explain what `output_text` does for you
-- [ ] Configure a client (timeout, retries) and know why you create it once
+- [x] Name the four parts of an LLM API call and what each does
+- [x] Make the same call with raw HTTP **and** with the SDK
+- [x] Read the raw JSON response and find the reply text by hand
+- [x] Explain what `output_text` does for you
+- [x] Configure a client (timeout, retries) and know why you create it once
 
 ---
 
@@ -341,7 +341,7 @@ python phase-01-llm-foundations/04-api-call-anatomy/sdk_call.py
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after running both scripts and comparing them.
+**Status:** ✅ DONE · completed Wed 30 Sep 2026
 
 [⬅️ 03 · Context window](../03-context-window/) · [📂 Phase 1 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
