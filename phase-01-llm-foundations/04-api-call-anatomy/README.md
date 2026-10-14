@@ -8,7 +8,7 @@
 
 **Every LLM call has four parts: a client that connects, a model that answers, the input you send, and a response object you unpack.**
 
-[⬅️ 03 · Context window](../03-context-window/) · [📂 Phase 1 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `05 · Message roles`
+[⬅️ 03 · Context window](../03-context-window/) · [📂 Phase 1 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [05 · Message roles](../05-message-roles/)
 
 </div>
 

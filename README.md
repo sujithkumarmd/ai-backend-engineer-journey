@@ -5,10 +5,20 @@
 **From zero to shipping production AI features: LLM APIs, RAG, evaluation, tool calling, backend services, deployment and agents.**
 
 ![Status](https://img.shields.io/badge/status-in%20progress-blue?style=for-the-badge)
-![Current](https://img.shields.io/badge/current-Phase%201%20·%20LLM%20Foundations-orange?style=for-the-badge)
+![Current](https://img.shields.io/badge/current-Phase%202%20·%20Embeddings-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Phases](https://img.shields.io/badge/phases-13-8A2BE2?style=for-the-badge)
 ![Projects](https://img.shields.io/badge/projects-4-2EA043?style=for-the-badge)
+
+<!-- progress:start -->
+
+![Progress](https://img.shields.io/badge/progress-20%2F112%20items%20(18%25)-brightgreen?style=for-the-badge)
+
+**Overall** &nbsp; `█████░░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **18%** · 20 / 112 items
+
+**📐 Phase 2 — Embeddings & Semantic Search** &nbsp; `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **0%** · 0 / 10 items
+
+<!-- progress:end -->
 
 *Build it from scratch first → then use the framework → then measure it.*
 
@@ -95,8 +105,8 @@ flowchart LR
 | # | Phase | ⏱️ Duration | 📅 Start | 🏁 End | Status | 📁 Folder |
 |:-:|---|:-:|:-:|:-:|:-:|---|
 | 0 | Setup | 2 days | Fri 25 Sep 2026 | Sat 26 Sep 2026 | ✅ | [`phase-00-setup`](phase-00-setup/) |
-| 1 | LLM Foundations | 1 week | Sun 27 Sep 2026 | Sat 03 Oct 2026 | 🟡 | [`phase-01-llm-foundations`](phase-01-llm-foundations/) |
-| 2 | Embeddings & Semantic Search | 1 week | Sun 04 Oct 2026 | Sat 10 Oct 2026 | ⬜ | `phase-02-embeddings` |
+| 1 | LLM Foundations | 1 week | Sun 27 Sep 2026 | Sat 03 Oct 2026 | ✅ | [`phase-01-llm-foundations`](phase-01-llm-foundations/) |
+| 2 | Embeddings & Semantic Search | 1 week | Sun 04 Oct 2026 | Sat 10 Oct 2026 | 🟡 | [`phase-02-embeddings`](phase-02-embeddings/) |
 | 3 | RAG Foundations | 2 weeks | Sun 11 Oct 2026 | Sat 24 Oct 2026 | ⬜ | `phase-03-rag-foundations` |
 | 4 | Vector Search | 1 week | Sun 25 Oct 2026 | Sat 31 Oct 2026 | ⬜ | `phase-04-vector-search` |
 | 5 | Retrieval Evaluation | 1 week | Sun 01 Nov 2026 | Sat 07 Nov 2026 | ⬜ | `phase-05-retrieval-evaluation` |
@@ -122,8 +132,8 @@ gantt
 
     section 🧱 Foundations
     Phase 0 Setup                 :done, p0, 2026-09-25, 2d
-    Phase 1 LLM Foundations       :active, p1, after p0, 7d
-    Phase 2 Embeddings            :p2, after p1, 7d
+    Phase 1 LLM Foundations       :done, p1, after p0, 7d
+    Phase 2 Embeddings            :active, p2, after p1, 7d
 
     section 🔎 Retrieval (RAG)
     Phase 3 RAG Foundations       :p3, after p2, 14d
@@ -170,26 +180,26 @@ Get a clean, safe Python workspace that can talk to an LLM.
 **✅ Done when:** a script sends `"Hello"` to an LLM and prints the reply.
 </details>
 
-<details open>
+<details>
 <summary><h3>🧠 Phase 1 — LLM Foundations <code>1 week</code></h3></summary>
 
 - [x] What an LLM is (next-token prediction, no memory, no internet by default)
 - [x] Tokens and `tiktoken`
 - [x] Context window
 - [x] API call anatomy (client, model, messages, response)
-- [ ] Message roles (system / user / assistant)
-- [ ] Statelessness & resending chat history
-- [ ] Temperature
-- [ ] Max output tokens
-- [ ] Prompt structure & few-shot prompting
-- [ ] Hallucinations
-- [ ] Reasoning models
-- [ ] Cost calculation (input vs output token pricing)
+- [x] Message roles (system / user / assistant)
+- [x] Statelessness & resending chat history
+- [x] Temperature
+- [x] Max output tokens
+- [x] Prompt structure & few-shot prompting
+- [x] Hallucinations
+- [x] Reasoning models
+- [x] Cost calculation (input vs output token pricing)
 
-**🔨 Build:** terminal chatbot with memory, showing tokens and cost per message.
+- [x] **🔨 Build:** terminal chatbot with memory, showing tokens and cost per message.
 </details>
 
-<details>
+<details open>
 <summary><h3>📐 Phase 2 — Embeddings & Semantic Search <code>1 week</code></h3></summary>
 
 - [ ] Embeddings
@@ -202,7 +212,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [ ] Semantic vs keyword search
 - [ ] Batch embeddings
 
-**🔨 Build:** semantic search over ~20 FAQ sentences using NumPy.
+- [ ] **🔨 Build:** semantic search over ~20 FAQ sentences using NumPy.
 </details>
 
 <details>
@@ -219,7 +229,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [ ] Chat memory vs RAG knowledge
 - [ ] Debugging retrieval first
 
-**🔨 Build:** "chat with a PDF" in the terminal.
+- [ ] **🔨 Build:** "chat with a PDF" in the terminal.
 </details>
 
 <details>
@@ -231,7 +241,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [ ] HNSW (concept)
 - [ ] Vector databases (Chroma)
 
-**🔨 Build:** move the PDF chatbot to FAISS, then Chroma.
+- [ ] **🔨 Build:** move the PDF chatbot to FAISS, then Chroma.
 </details>
 
 <details>
@@ -245,7 +255,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [ ] MRR
 - [ ] Retrieval latency and p95
 
-**🔨 Build:** evaluation script with a score report.
+- [ ] **🔨 Build:** evaluation script with a score report.
 
 > [!TIP]
 > This phase comes **before** Advanced Retrieval on purpose: every Phase 6 upgrade can then be measured with real numbers instead of guesses.
@@ -263,7 +273,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 - [ ] Parent-child chunking
 - [ ] Long context vs RAG
 
-**🔨 Build:** upgrade the PDF chatbot with a before/after score table per technique.
+- [ ] **🔨 Build:** upgrade the PDF chatbot with a before/after score table per technique.
 </details>
 
 <details>
@@ -294,7 +304,7 @@ Full RAG: hybrid search, reranking, citations, evaluation report.
 - [ ] Routing
 - [ ] MCP (build a small MCP server)
 
-**🔨 Build:** assistant that looks up and creates records through tools.
+- [ ] **🔨 Build:** assistant that looks up and creates records through tools.
 </details>
 
 <details>
@@ -377,6 +387,7 @@ Searches documents, calls internal APIs, asks for approval before actions.
 AI-claude/
 ├── README.md                          ← you are here (the full roadmap)
 ├── .venv/                             ← one shared virtual environment (never committed)
+├── scripts/update_progress.py         ← redraws the progress bars at the top of this file
 │
 ├── phase-00-setup/
 │   ├── README.md                      ← phase overview + concept index
