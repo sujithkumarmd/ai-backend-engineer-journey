@@ -21,8 +21,8 @@
 
 | # | Concept | What you learn | Status |
 |:-:|---|---|:-:|
-| 01 | [Embeddings](01-embeddings/) | Text → a list of numbers that represents its meaning | 🟡 |
-| 02 | Vectors and dimensions | What those lists are, and what "1536 dimensions" means | ⬜ |
+| 01 | [Embeddings](01-embeddings/) | Text → a list of numbers that represents its meaning | ✅ |
+| 02 | [Vectors and dimensions](02-vectors-and-dimensions/) | What those lists are, and what "1536 dimensions" means | 🟡 |
 | 03 | NumPy arrays | Fast math on lists of numbers | ⬜ |
 | 04 | Dot product and norm | The two building blocks of similarity | ⬜ |
 | 05 | Cosine similarity | Measuring how alike two meanings are | ⬜ |

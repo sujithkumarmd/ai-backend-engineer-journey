@@ -12,11 +12,11 @@
 
 <!-- progress:start -->
 
-![Progress](https://img.shields.io/badge/progress-20%2F112%20items%20(18%25)-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/progress-21%2F112%20items%20(19%25)-brightgreen?style=for-the-badge)
 
-**Overall** &nbsp; `█████░░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **18%** · 20 / 112 items
+**Overall** &nbsp; `██████░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **19%** · 21 / 112 items
 
-**📐 Phase 2 — Embeddings & Semantic Search** &nbsp; `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **0%** · 0 / 10 items
+**📐 Phase 2 — Embeddings & Semantic Search** &nbsp; `███░░░░░░░░░░░░░░░░░░░░░░░░░░░` &nbsp; **10%** · 1 / 10 items
 
 <!-- progress:end -->
 
@@ -202,7 +202,7 @@ Get a clean, safe Python workspace that can talk to an LLM.
 <details open>
 <summary><h3>📐 Phase 2 — Embeddings & Semantic Search <code>1 week</code></h3></summary>
 
-- [ ] Embeddings
+- [x] Embeddings
 - [ ] Vectors and dimensions
 - [ ] NumPy arrays
 - [ ] Dot product and norm

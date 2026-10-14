@@ -4,12 +4,12 @@
 
 ![Phase](https://img.shields.io/badge/Phase%202-Embeddings-0E8A16?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-01%20of%2009-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 ![Model](https://img.shields.io/badge/model-text--embedding--3--small-412991?style=flat-square)
 
 **An embedding is a list of numbers that represents the *meaning* of a piece of text. Texts with similar meanings get similar numbers.**
 
-[📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `02 · Vectors and dimensions`
+[📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [02 · Vectors and dimensions](../02-vectors-and-dimensions/)
 
 </div>
 
@@ -17,11 +17,11 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Explain what an embedding is and why it's useful
-- [ ] Explain how an embedding model differs from a chat model
-- [ ] Create an embedding with the OpenAI API and read the response
-- [ ] Explain why all texts must be embedded with the **same** model
-- [ ] Name the main things embeddings are used for
+- [x] Explain what an embedding is and why it's useful
+- [x] Explain how an embedding model differs from a chat model
+- [x] Create an embedding with the OpenAI API and read the response
+- [x] Explain why all texts must be embedded with the **same** model
+- [x] Name the main things embeddings are used for
 
 ---
 
@@ -346,7 +346,7 @@ python phase-02-embeddings/01-embeddings/first_embedding.py
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after running both scripts.
+**Status:** ✅ DONE · completed Wed 14 Oct 2026
 
 [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
