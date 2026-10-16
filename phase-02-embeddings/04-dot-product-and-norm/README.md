@@ -4,11 +4,11 @@
 
 ![Phase](https://img.shields.io/badge/Phase%202-Embeddings-0E8A16?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-04%20of%2009-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 
 **The dot product measures how much two vectors agree. The norm measures how long a vector is. Together they're the building blocks of every similarity score.**
 
-[⬅️ 03 · NumPy arrays](../03-numpy-arrays/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `05 · Cosine similarity`
+[⬅️ 03 · NumPy arrays](../03-numpy-arrays/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [05 · Cosine similarity](../05-cosine-similarity/)
 
 </div>
 
@@ -16,10 +16,10 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Compute a dot product and a norm by hand and in code
-- [ ] Explain what a large, zero or negative dot product means
-- [ ] Score one query against many vectors with `matrix @ query`
-- [ ] Explain the "length problem" that makes raw dot products unreliable
+- [x] Compute a dot product and a norm by hand and in code
+- [x] Explain what a large, zero or negative dot product means
+- [x] Score one query against many vectors with `matrix @ query`
+- [x] Explain the "length problem" that makes raw dot products unreliable
 
 ---
 
@@ -336,7 +336,7 @@ python phase-02-embeddings/04-dot-product-and-norm/real_dot_products.py
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after running both scripts.
+**Status:** ✅ DONE · completed Fri 16 Oct 2026
 
 [⬅️ 03 · NumPy arrays](../03-numpy-arrays/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
