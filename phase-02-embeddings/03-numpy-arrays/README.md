@@ -4,12 +4,12 @@
 
 ![Phase](https://img.shields.io/badge/Phase%202-Embeddings-0E8A16?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-03%20of%2009-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 ![NumPy](https://img.shields.io/badge/numpy-2.5.4-013243?style=flat-square&logo=numpy&logoColor=white)
 
 **NumPy stores numbers in one tightly packed block and does math on the whole block at once: about 8× less memory and ~30× faster than Python lists for vector work.**
 
-[⬅️ 02 · Vectors and dimensions](../02-vectors-and-dimensions/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `04 · Dot product and norm`
+[⬅️ 02 · Vectors and dimensions](../02-vectors-and-dimensions/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [04 · Dot product and norm](../04-dot-product-and-norm/)
 
 </div>
 
@@ -17,11 +17,11 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Explain why NumPy arrays beat Python lists for vectors
-- [ ] Create arrays and read their `shape`, `dtype` and `nbytes`
-- [ ] Do element-wise math without loops
-- [ ] Stack many vectors into a 2-D array (matrix) and select rows and columns
-- [ ] Use broadcasting to compare one query against every row at once
+- [x] Explain why NumPy arrays beat Python lists for vectors
+- [x] Create arrays and read their `shape`, `dtype` and `nbytes`
+- [x] Do element-wise math without loops
+- [x] Stack many vectors into a 2-D array (matrix) and select rows and columns
+- [x] Use broadcasting to compare one query against every row at once
 
 ---
 
@@ -363,7 +363,7 @@ Memory for 1,000 vectors:
 | Losing track of which row is which item | Wrong search results | Keep a parallel `items` list in the **same order** |
 | Comparing floats with `==` | False "not equal" from tiny rounding | `np.allclose` |
 | Default float64 for embeddings | Double the memory | `dtype=np.float32` |
-| Installing NumPy with Python 3.9 | Old version or install failure (NumPy 2.5.4 needs ≥ 3.12) | Use the venv's Python 3.12 |
+| Installing NumPy with Python 3.9 | **Happened here (16 Oct 2026):** PyCharm's 3.9 interpreter silently installed **NumPy 2.0.2**, the newest version that still supports 3.9, while the project venv got nothing | Check `python --version` before `pip install`; use the venv's Python 3.12 |
 | Forgetting `requirements.txt` | Others can't run your code | Add `numpy==2.5.4` |
 
 ---
@@ -388,7 +388,7 @@ Memory for 1,000 vectors:
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after installing NumPy and running both scripts.
+**Status:** ✅ DONE · completed Fri 16 Oct 2026 · in the project venv: lists 62.8 ms vs NumPy 1.3 ms (~50×)
 
 [⬅️ 02 · Vectors and dimensions](../02-vectors-and-dimensions/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
