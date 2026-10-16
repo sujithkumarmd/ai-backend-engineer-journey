@@ -4,11 +4,11 @@
 
 ![Phase](https://img.shields.io/badge/Phase%202-Embeddings-0E8A16?style=flat-square)
 ![Concept](https://img.shields.io/badge/concept-02%20of%2009-blue?style=flat-square)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow?style=flat-square)
+![Status](https://img.shields.io/badge/status-done-brightgreen?style=flat-square)
 
 **A vector is an ordered list of numbers. Its dimension is how many numbers it has. An embedding is a vector with 1,536 dimensions.**
 
-[⬅️ 01 · Embeddings](../01-embeddings/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ `03 · NumPy arrays`
+[⬅️ 01 · Embeddings](../01-embeddings/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md) · Next ➡️ [03 · NumPy arrays](../03-numpy-arrays/)
 
 </div>
 
@@ -16,11 +16,11 @@
 
 ## 🎯 What you'll be able to do after this
 
-- [ ] Explain what a vector and a dimension are
-- [ ] Explain why order and equal dimensions matter
-- [ ] Compare two vectors position by position
-- [ ] Estimate how much storage embeddings need
-- [ ] Shorten embeddings with the `dimensions` parameter and explain the trade-off
+- [x] Explain what a vector and a dimension are
+- [x] Explain why order and equal dimensions matter
+- [x] Compare two vectors position by position
+- [x] Estimate how much storage embeddings need
+- [x] Shorten embeddings with the `dimensions` parameter and explain the trade-off
 
 ---
 
@@ -278,6 +278,7 @@ python phase-02-embeddings/02-vectors-and-dimensions/shorter_embeddings.py
 | Mistake | Consequence | Fix |
 |---|---|---|
 | Comparing vectors of different lengths | Silent wrong results with plain `zip` | `zip(..., strict=True)` |
+| `TypeError: zip() takes no keyword arguments` | `strict=` doesn't exist in your Python | You're running Python older than 3.10 (e.g. the system `/usr/bin/python3` 3.9). Use the venv's Python 3.12 |
 | Mixing dimension settings (1536 stored, 256 query) | Can't compare | Use one `dimensions` setting everywhere |
 | Storing embeddings as Python lists at scale | ~8× wasted memory | Use NumPy arrays *(next concept)* |
 | Assuming fewer dimensions is "free" | Retrieval quality can drop | Measure before shortening *(Phase 5)* |
@@ -306,7 +307,7 @@ python phase-02-embeddings/02-vectors-and-dimensions/shorter_embeddings.py
 
 <div align="center">
 
-**Status:** 🟡 In progress → say **`done`** after running both scripts.
+**Status:** ✅ DONE · completed Fri 16 Oct 2026
 
 [⬅️ 01 · Embeddings](../01-embeddings/) · [📂 Phase 2 index](../README.md) · [🗺️ Roadmap](../../README.md)
 
